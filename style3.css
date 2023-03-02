@@ -14,8 +14,8 @@ body {
   display: grid;
   grid-template-rows: 50px 100px 200px;
   grid-auto-rows: 300px;
-  grid-template-columns: 300px 200px;
-  grid-auto-columns: 70px;
+  grid-template-columns: 200px;
+  /* grid-auto-columns: 70px; */
 }
 
 .grid-item {
@@ -31,5 +31,5 @@ body {
 .big {
     padding: 2em 2em;
     background: #FF5670;
-    grid-column: 4 / 5;
+    /* grid-column: 4 / 5; */
 }
